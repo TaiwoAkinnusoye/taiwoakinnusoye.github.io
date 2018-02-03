@@ -84,7 +84,7 @@ label[for*='5']:before {
 
 label[for*='6']:before {
   content: '\f1a9';
-*/}
+}*/
 
 label:hover {
   color: #888;
@@ -143,4 +143,5 @@ figcaption {
 .selected-pkg-text {
   margin-bottom: 30px;
   font-weight: 600;
+  padding-left: 15px;
 }
