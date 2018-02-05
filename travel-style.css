@@ -42,7 +42,7 @@ section {
 }
 
 input {
-  display: block;
+  display: inline-block;
 }
 
 label {
@@ -57,7 +57,7 @@ label {
 }
 
 label:before {
- /* font-family: fontawesome;*/
+ font-family: fontawesome;
   font-weight: normal;
   margin-right: 10px;
 }/*
