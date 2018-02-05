@@ -42,7 +42,7 @@ section {
 }
 
 input {
-  display: inline-block;
+  display: none;
 }
 
 label {
@@ -58,8 +58,8 @@ label {
 
 label:before {
  font-family: fontawesome;
-  font-weight: normal;
-  margin-right: 10px;
+ font-weight: normal;
+ margin-right: 10px;
 }/*
 
 label[for*='1']:before {
