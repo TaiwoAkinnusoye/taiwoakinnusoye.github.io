@@ -98,12 +98,12 @@ input:checked + label {
   border-bottom: 1px solid #fff;
 }
 
-#tab1:checked ~ #content1,
-#tab2:checked ~ #content2,
-#tab3:checked ~ #content3,
-#tab4:checked ~ #content4,
-#tab5:checked ~ #content5,
-#tab6:checked ~ #content6 {
+#tabbed1:checked ~ #content_1,
+#tabbed2:checked ~ #content_2,
+#tabbed3:checked ~ #content_3,
+#tabbed4:checked ~ #content_4,
+#tabbed5:checked ~ #content_5,
+#tabbed6:checked ~ #content_6 {
   display: block;
 }
 
@@ -124,7 +124,7 @@ input:checked + label {
 }
 
 
-.tab-section {
+.tabbed-section {
   margin-top: 40px;
   margin-bottom: 40px;
 }
