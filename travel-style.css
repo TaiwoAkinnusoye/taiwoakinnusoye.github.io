@@ -91,7 +91,7 @@ label[for*='6']:before {
   cursor: pointer;
 }
 
-.tab-section input:checked + label {
+.tab-section input:checked + .tab-section label {
   color: #555;
   border: 1px solid #ddd;
   border-top: 2px solid orange;
