@@ -41,7 +41,7 @@ section {
   border-top: 1px solid #ddd;
 }
 
-input {
+#tab1 {
   display: none;
 }
 
@@ -57,7 +57,7 @@ label {
 }
 
 label:before {
- font-family: fontawesome;
+/*  font-family: fontawesome; */
  font-weight: normal;
  margin-right: 10px;
 }/*
