@@ -35,7 +35,7 @@ main {
   background: #fff;
 }
 
-section {
+.tab-section section {
   display: none;
   padding: 20px 0 0;
   border-top: 1px solid #ddd;
@@ -45,7 +45,7 @@ section {
   display: none;
 }
 
-label {
+.tab-section label {
   display: inline-block;
   margin: 0 0 -1px;
   padding: 15px 25px;
@@ -56,7 +56,7 @@ label {
   pointer: cursor;
 }
 
-label:before {
+.tab-section label:before {
 /*  font-family: fontawesome; */
  font-weight: normal;
  margin-right: 10px;
@@ -86,12 +86,12 @@ label[for*='6']:before {
   content: '\f1a9';
 }*/
 
-label:hover {
+.tab-section label:hover {
   color: #888;
   cursor: pointer;
 }
 
-input:checked + label {
+.tab-section input:checked + label {
   color: #555;
   border: 1px solid #ddd;
   border-top: 2px solid orange;
@@ -108,17 +108,17 @@ input:checked + label {
 }
 
 @media screen and (max-width: 650px) {
-  label {
+  .tab-section label {
     font-size: 0;
   }
 
-  label:before {
+  .tab-section label:before {
     margin: 0;
     font-size: 18px;
   }
 }
 @media screen and (max-width: 400px) {
-  label {
+  .tab-section label {
     padding: 15px;
   }
 }
