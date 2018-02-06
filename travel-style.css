@@ -98,7 +98,7 @@ label[for*='6']:before {
   border-bottom: 1px solid #fff;
 }
 
-.tab-section #tab1:checked ~ .tab-section #content1,
+#tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3,
 #tab4:checked ~ #content4,
