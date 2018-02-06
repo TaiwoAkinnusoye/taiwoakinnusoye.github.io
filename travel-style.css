@@ -64,27 +64,27 @@ font-family: fontawesome;
 }
 
 label[for*='1']:before {
-  content: '\f1cb';
+  content: '\f13a';
 }
 
 label[for*='2']:before {
-  content: '\f17d';
+  content: '\f185';
 }
 
 label[for*='3']:before {
-  content: '\f16b';
+  content: '\f186';
 }
 
 label[for*='4']:before {
-  content: '\f1a9';
+  content: '\f2e7';
 }
 
 label[for*='5']:before {
-  content: '\f1a9';
+  content: '\f030';
 }
 
 label[for*='6']:before {
-  content: '\f1a9';
+  content: '\f3d1';
 }
 
 .tab-section label:hover {
