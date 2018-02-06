@@ -58,7 +58,7 @@ main {
 }
 
 .tab-section label:before {
-font-family: fontawesome;
+/* font-family: fontawesome; */
  font-weight: normal;
  margin-right: 10px;
 }
