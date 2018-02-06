@@ -76,7 +76,7 @@ label[for*='3']:before {
 }
 
 label[for*='4']:before {
-  content: '\f2e7';
+  content: '\f2e5';
 }
 
 label[for*='5']:before {
@@ -84,7 +84,7 @@ label[for*='5']:before {
 }
 
 label[for*='6']:before {
-  content: '\f3d1';
+  content: '\f09d';
 }
 
 .tab-section label:hover {
