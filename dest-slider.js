@@ -1,6 +1,6 @@
 $(document).ready(function(){
   
-  $(".Modern-Slider").slick({
+  $(".destination-info-slider").slick({
     autoplay:true,
     autoplaySpeed:10000,
     speed:600,
@@ -12,8 +12,10 @@ $(document).ready(function(){
     cssEase:'linear',
     fade:true,
     draggable:false,
-    prevArrow:'<button class="PrevArrow"></button>',
-    nextArrow:'<button class="NextArrow"></button>', 
+    arrows:true,
+    mobileFirst:true,
+    swipe:true,
+    swipeToSlide:true 
   });
   
 })
