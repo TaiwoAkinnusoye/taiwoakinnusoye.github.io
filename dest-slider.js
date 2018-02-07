@@ -12,7 +12,7 @@ $(document).ready(function(){
     cssEase:'linear',
     fade:true,
     draggable:false,
-    arrows:true,
+    arrows:false,
     mobileFirst:true,
     swipe:true,
     swipeToSlide:true,
