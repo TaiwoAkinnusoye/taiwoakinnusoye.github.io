@@ -1,6 +1,6 @@
 $(document).ready(function(){
   
-  $(".destination-info-slider").slick({
+  $(".slick-list").slick({
     autoplay:true,
     autoplaySpeed:10000,
     speed:600,
