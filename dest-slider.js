@@ -15,7 +15,9 @@ $(document).ready(function(){
     arrows:true,
     mobileFirst:true,
     swipe:true,
-    swipeToSlide:true 
+    swipeToSlide:true,
+    nextArrow:'<button type="button" class="slick-next">Next</button>',
+    prevArrow:'<button type="button" class="slick-next">Prev</button>'
   });
   
-})
+});
