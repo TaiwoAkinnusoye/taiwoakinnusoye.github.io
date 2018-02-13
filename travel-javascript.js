@@ -3,5 +3,5 @@ $('article').readmore({
   collapsedHeight: 240,
   moreLink: '<a href="#">More</a>',
   lessLink: '<a href="#">Less</a>',
-  startOpen: true
+  startOpen: false
   });
