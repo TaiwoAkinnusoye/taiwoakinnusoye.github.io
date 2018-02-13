@@ -1,4 +1,4 @@
-$('#content1).readmore({
+$('#content1').readmore({
   speed: 200,
   collapsedHeight: 240,
   moreLink: '<a href="#">More</a>',
