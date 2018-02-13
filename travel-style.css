@@ -145,3 +145,12 @@ figcaption {
   font-weight: 600;
   padding-left: 15px;
 }
+
+article {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  max-height: 100px; 
+  overflow: hidden;
+  border: 1px solid #ccc;
+  padding: 20px 10px;
+}
