@@ -155,3 +155,8 @@ article {
   padding: 20px 10px;
   background-color: #ddd;
 }
+
+#content5 .col-md-3 .thumbnail img {
+    width: 266px;
+    height: 400px;
+}
