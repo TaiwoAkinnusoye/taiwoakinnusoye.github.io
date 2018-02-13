@@ -156,7 +156,7 @@ article {
   background-color: #ddd;
 }
 
-#content5 .col-md-3 .thumbnail img {
-    width: 266px;
-    height: 400px;
+#content5 .thumbnail img {
+    width: 266px !important;
+    height: 400px !important;
 }
