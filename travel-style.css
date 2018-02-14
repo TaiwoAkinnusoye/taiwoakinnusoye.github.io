@@ -146,7 +146,7 @@ figcaption {
   padding-left: 15px;
 }
 
-article {
+.collapsed-txt {
   margin-top: 5px;
   margin-bottom: 5px;
   max-height: 100px; 
