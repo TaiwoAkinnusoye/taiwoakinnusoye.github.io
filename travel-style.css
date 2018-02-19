@@ -149,3 +149,7 @@ section#content5 .col-md-3 .thumbnail img {
 .carousel-inner {
   height: 300px;
 }
+
+.result-box .segment-inner .airlines img {
+ margin-left: 82px; 
+}
