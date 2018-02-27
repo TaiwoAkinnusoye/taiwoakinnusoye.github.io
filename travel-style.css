@@ -161,18 +161,18 @@ section#content5 .col-md-3 .thumbnail img {
   .logo_wwrapper {
     margin-top: -15px !important;
   }.logo_wrapper img {
-    width: 50%;
+    width: 50% !important;
   }.tp-img {
    background-image: none; 
   }.tp-parallax-wrap ul li{
-    width: 100%;
+    width: 100% !important;
   }#1__col2__100, #1__col3__100 {
-    display: none;
+    display: none !important;
   }#1__col4__100 {
-    margin-top: 50px;
+    margin-top: 50px !important;
   }#1__col5__100 {
-    margin-bottom: 50px;
+    margin-bottom: 50px !important;
   }div.one.fullwidth.container div.col-md-6 h2,  div.one.fullwidth.container div.col-md-6 p, div.one.fullwidth.container div.col-md-6.pull-right{
-    display: none;
+    display: none !important;
   }
 }
