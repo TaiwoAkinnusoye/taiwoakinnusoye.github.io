@@ -168,7 +168,7 @@ section#content5 .col-md-3 .thumbnail img {
     width: 100% !important;
   }div#1__col2__100, div#1__col3__100 {
     display: none !important;
-  }div#1__col4__100 div.one.withsmallpadding.ppb_content_half_bg.withbg  {
+  }div#1__col4__100{
     margin-top: 50px !important;
     margin-bottom: 50px !important;
   }div.one.fullwidth.container div.col-md-6 h5,  div.one.fullwidth.container div.col-md-6 p, div.one.fullwidth.container div.col-md-6.pull-right{
