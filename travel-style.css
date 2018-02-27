@@ -163,7 +163,7 @@ section#content5 .col-md-3 .thumbnail img {
   }.logo_wrapper img {
     width: 50% !important;
   }.tp-img {
-   background-image: none; 
+   background-image: none !important; 
   }.tp-parallax-wrap ul li{
     width: 100% !important;
   }div#1__col2__100, div#1__col3__100 {
