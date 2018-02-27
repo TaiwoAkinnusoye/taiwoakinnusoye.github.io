@@ -169,8 +169,8 @@ section#content5 .col-md-3 .thumbnail img {
   }div.ppb_tourcat_grid, div.ppb_destination_metro, div.ppb_header{
     display: none !important;
   }div.ppb_content_half_bg{
-    margin-top: 50px !important;
-    margin-bottom: 50px !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
   }div.one.fullwidth.container div.col-md-6 h5,  div.one.fullwidth.container div.col-md-6 p, div.one.fullwidth.container div.col-md-6.pull-right{
     display: none !important;
   }
