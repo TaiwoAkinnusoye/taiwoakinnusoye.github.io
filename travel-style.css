@@ -150,3 +150,29 @@ section#content5 .col-md-3 .thumbnail img {
   height: 300px;
 }
 
+
+
+
+
+
+
+/* Responsive CSS for Ochulo Travel Home Page */
+@media (max-width: 760px) {
+  .logo_wwrapper {
+    margin-top: -15px !important;
+  }.logo_wrapper img {
+    width: 50%;
+  }.tp-img {
+   background-image: none; 
+  }.tp-parallax-wrap ul li{
+    width: 100%;
+  }#1__col2__100, #1__col3__100 {
+    display: none;
+  }#1__col4__100 {
+    margin-top: 50px;
+  }#1__col5__100 {
+    margin-bottom: 50px;
+  }div.one.fullwidth.container div.col-md-6 h2,  div.one.fullwidth.container div.col-md-6 p, div.one.fullwidth.container div.col-md-6.pull-right{
+    display: none;
+  }
+}
