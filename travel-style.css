@@ -166,7 +166,7 @@ section#content5 .col-md-3 .thumbnail img {
    display: none !important; 
   }.tp-parallax-wrap ul li{
     width: 100% !important;
-  }.inner div#1__col2__100, .inner div#1__col3__100{
+  }.inner #1__col2__100, .inner #1__col3__100{
     display: none !important;
   }.inner div#1__col4__100{
     margin-top: 50px !important;
