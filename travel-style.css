@@ -166,7 +166,7 @@ section#content5 .col-md-3 .thumbnail img {
    display: none !important; 
   }.tp-parallax-wrap ul li{
     width: 100% !important;
-  }div.ppb_tourcat_grid, div.ppb_destination_metro {
+  }div.ppb_tourcat_grid, .ppb_destination_metro{
     display: none !important;
   }.inner div#1__col4__100{
     margin-top: 50px !important;
