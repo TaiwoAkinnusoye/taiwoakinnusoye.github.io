@@ -162,8 +162,8 @@ section#content5 .col-md-3 .thumbnail img {
     margin-top: -15px !important;
   }.logo_wrapper img {
     width: 50% !important;
-  }.tp-img {
-   background-image: none !important; 
+  }div.tp-bgimg {
+   display: none !important; 
   }.tp-parallax-wrap ul li{
     width: 100% !important;
   }div#1__col2__100, div#1__col3__100 {
