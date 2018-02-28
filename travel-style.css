@@ -177,7 +177,7 @@ section#content5 .col-md-3 .thumbnail img {
 /*     content: url("https://www.ochulo.com/wp-content/uploads/2018/02/sort-down.png"); */
   }.page-id-3557 .col-md-3 .img-responsive{
     display: none !important;
-  }.page-id-3557 .nav li{
+  }.tp-parallax-wrap ul.nav.nav-tabs li{
     width: auto !important;
     text-transform: none !important;
     margin: 0 1px !important;
