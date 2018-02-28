@@ -166,9 +166,6 @@ section#content5 .col-md-3 .thumbnail img {
     width: 50% !important;
   }div.tp-bgimg {
    display: none !important; 
-  }.nav-tabs > li > a{
-/*     width: 25%; */
-/*     font-size: 12px; */
   }div.ppb_tourcat_grid, div.ppb_destination_metro, div.ppb_header{
     display: none !important;
   }div.ppb_content_half_bg{
