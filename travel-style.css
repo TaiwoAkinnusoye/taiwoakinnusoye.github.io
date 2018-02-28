@@ -150,7 +150,7 @@ section#content5 .col-md-3 .thumbnail img {
   height: 300px;
 }
 
-.page-id-3557 #payment-form #Debit_Card img{
+.page-id-3557 #payment-form #Debit_Card div.col-md-3 div.col-md-12 img{
   width: 100% !important;
 }
 
