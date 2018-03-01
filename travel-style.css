@@ -178,7 +178,7 @@ section#content5 .col-md-3 .thumbnail img {
   }.page-id-3557 .col-md-3 .img-responsive{
    display: none !important; 
   }.tp-parallax-wrap ul.nav.nav-tabs li{
-    width: auto !important;
+    width: 100% !important;
     text-transform: none !important;
     margin: 0 1px !important;
     border: 1px solid;
