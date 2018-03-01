@@ -172,11 +172,11 @@ section#content5 .col-md-3 .thumbnail img {
     margin-top: 30px !important;
     margin-bottom: 30px !important;
   }div.one.fullwidth.container div.col-md-6 h5,  div.one.fullwidth.container div.col-md-6 p, div.one.fullwidth.container div.col-md-6.pull-right{
-    //display: none !important;
+/*     display: none !important; */
   }#mobile_main_menu li a:after{
 /*     content: url("https://www.ochulo.com/wp-content/uploads/2018/02/sort-down.png"); */
   }.page-id-3557 .col-md-3 .img-responsive{
-    //display: none !important;
+/*     display: none !important; */
   }.tp-parallax-wrap ul.nav.nav-tabs li{
     width: auto !important;
     text-transform: none !important;
