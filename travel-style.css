@@ -184,3 +184,30 @@ section#content5 .col-md-3 .thumbnail img {
     border: 1px solid;
   } 
 }
+
+/* Responsive CSS for Ochulo Travel Home Page */
+@media only screen and (max-width : 736px) {
+  .logo_wrapper {
+    margin-top: -15px !important;
+  }.logo_wrapper img {
+    width: 50% !important;
+  }div.tp-bgimg {
+/*    display: none !important;  */
+  }div.ppb_tourcat_grid, div.ppb_destination_metro, div.ppb_header{
+/*     display: none !important; */
+  }div.ppb_content_half_bg{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }div.one.fullwidth.container div.col-md-6 h5,  div.one.fullwidth.container div.col-md-6 p, div.one.fullwidth.container div.col-md-6.pull-right{
+  display: none !important; 
+  }#mobile_main_menu li a:after{
+/*    content: url("https://www.ochulo.com/wp-content/uploads/2018/02/sort-down.png");  */
+  }.page-id-3557 .col-md-3 .img-responsive{
+   display: none !important; 
+  }.tp-parallax-wrap ul.nav.nav-tabs li{
+    width: 100% !important;
+    text-transform: none !important;
+    margin: 0 1px !important;
+    border: 1px solid;
+  } 
+}
