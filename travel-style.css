@@ -187,6 +187,9 @@ section#content5 .col-md-3 .thumbnail img {
 
 /* Responsive CSS for Ochulo Travel Home Page */
 @media only screen and (max-width : 736px) {
+  body {
+    overflow-x: hidden;
+  }
   .logo_wrapper {
     margin-top: -15px !important;
   }.logo_wrapper img {
