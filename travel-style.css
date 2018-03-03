@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body{
+  overflow-x: hidden !important;
+}
+
 .boxed-p {
   border: 1px solid #ddd;
   margin: 20px 0px;
@@ -152,9 +156,6 @@ section#content5 .col-md-3 .thumbnail img {
 
 .page-id-3557 #payment-form #Debit_Card div.col-md-3 div.col-md-12 img{
   width: 100% !important;
-}
-body{
-  overflow-x: hidden !important;
 }
 
 
