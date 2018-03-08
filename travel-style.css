@@ -158,7 +158,7 @@ section#content5 .col-md-3 .thumbnail{
   width: 270px !important;
 } */
 
-.slick-next{
+section#content5 .slick-next{
     display: inline-block !important;
     float: right !important;
     margin-top: -179px !important;
