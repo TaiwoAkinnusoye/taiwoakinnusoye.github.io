@@ -139,7 +139,7 @@ figcaption {
 .collapsed-txt {
   margin-top: 5px;
   margin-bottom: 5px;
-  max-height: 400px; 
+  max-height: 250px; 
   overflow-y: scroll;
   border: 1px solid #ccc;
   padding: 20px 10px;
