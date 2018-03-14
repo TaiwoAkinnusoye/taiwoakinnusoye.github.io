@@ -159,15 +159,15 @@ section#content5 .col-md-3 .thumbnail{
 } */
 
 section#content5 .slick-prev{
-    display: inline-block !important;
-    float: left !important;
-    margin-top: 100px !important;
+    display: none !important;
+/*     float: left !important;
+    margin-top: 100px !important; */
 }
 
 section#content5 .slick-next{
-    display: inline-block !important;
-    float: right !important;
-    margin-top: -179px !important;
+    display: none !important;
+/*     float: right !important;
+    margin-top: -179px !important; */
 }
 
 .carousel-inner {
