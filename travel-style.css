@@ -185,7 +185,11 @@ section#content3 .well, section#content4 .well, section#content6 .well  {
 
 
 section#content6 .well.col-md-2 {
-  margin-right: 20px;
+  margin-right: 20px !important;
+}
+
+section#content6 .well.col-md-2:last-child {
+  margin-right: 0px !important;
 }
 
 /* Responsive CSS for Ochulo Travel Home Page */
