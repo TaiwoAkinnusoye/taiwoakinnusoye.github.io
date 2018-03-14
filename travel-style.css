@@ -180,7 +180,7 @@ section#content5 .slick-next{
 
 section#content3 .custom-well {
   width: 250px !important;
-  padding-left: 10px !important;
+  padding: 0 0 0 10px !important;
 }
 
 
