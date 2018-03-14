@@ -184,6 +184,10 @@ section#content3 .well, section#content4 .well, section#content6 .well  {
 }
 
 
+section#content6 .well.col-md-2 {
+  margin-right: 20px;
+}
+
 /* Responsive CSS for Ochulo Travel Home Page */
 @media only screen and (max-width : 375px) {
   .logo_wrapper {
