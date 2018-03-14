@@ -179,8 +179,8 @@ section#content5 .slick-next{
 }
 
 .well.custom-well {
-  width: 250px;
-  padding-left: 10px;
+  width: 250px !important;
+  padding-left: 10px !important;
 }
 
 
