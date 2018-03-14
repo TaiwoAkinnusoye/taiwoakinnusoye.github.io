@@ -178,7 +178,10 @@ section#content5 .slick-next{
   width: 100% !important;
 }
 
-
+.well.custom-well {
+  width: 250px;
+  padding-left: 10px;
+}
 
 
 /* Responsive CSS for Ochulo Travel Home Page */
