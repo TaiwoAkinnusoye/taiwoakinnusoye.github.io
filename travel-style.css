@@ -179,14 +179,9 @@ section#content5 .slick-next{
   width: 100% !important;
 }
 
-/* section#content3 .col-md-4 .custom-well, section#content4 .custom-well, section#content6 .custom-well  {
-  width: 250px;
-  padding: 0 0 0 10px !important;
-} */
-
-section#content3 h4 .custom-well{
+section#content3 h4 .well{
   text-align: center !important;
-  width: 100% !important;
+  padding: 0 0 0 10px !important;
 }
 
 
