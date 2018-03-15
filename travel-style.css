@@ -184,6 +184,10 @@ section#content3 .well, section#content4 .well, section#content6 .well  {
   padding: 0 0 0 10px !important;
 }
 
+section#content3 h4.well{
+  text-align: center;
+}
+
 
 section#content6 .well.col-md-2 {
   margin-right: 20px !important;
