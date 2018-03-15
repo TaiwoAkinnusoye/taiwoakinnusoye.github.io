@@ -179,13 +179,13 @@ section#content5 .slick-next{
   width: 100% !important;
 }
 
-section#content3 .well, section#content4 .well, section#content6 .well  {
+section#content3 .col-md-4 .well, section#content4 .well, section#content6 .well  {
   width: 250px !important;
   padding: 0 0 0 10px !important;
 }
 
-section#content3 h4.well{
-  text-align: center;
+section#content3 h4{
+  text-align: center !important;
 }
 
 
