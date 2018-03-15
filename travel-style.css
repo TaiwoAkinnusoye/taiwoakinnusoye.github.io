@@ -179,7 +179,7 @@ section#content5 .slick-next{
   width: 100% !important;
 }
 
-.well{
+section#content3 .well.col-md-12, section#content4 .well.col-md-12{
   text-align: center !important;
   padding: 0 0 0 10px !important;
 }
