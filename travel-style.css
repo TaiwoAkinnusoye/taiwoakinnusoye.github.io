@@ -206,6 +206,9 @@ section#content6 .custom-well.col-md-2:last-child {
     padding: 0 0 0 10px !important;
 }
 
+.col-md-3 .filter-head, .col-md-3 .filter-area{
+  display: none;
+}
 
 /* Responsive CSS for Ochulo Travel Home Page */
 @media only screen and (max-width : 375px) {
