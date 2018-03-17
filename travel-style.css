@@ -216,6 +216,9 @@ section#content6 .custom-well.col-md-2:last-child {
 
 /* Responsive CSS for Ochulo Travel Home Page */
 @media only screen and (max-width : 375px) {
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+         border-radius: 20px;
+  }
   .logo_wrapper {
     margin-top: -15px !important;
   }.logo_wrapper img {
@@ -236,13 +239,19 @@ section#content6 .custom-well.col-md-2:last-child {
   }.tp-parallax-wrap ul.nav.nav-tabs li{
     width: 100% !important;
     text-transform: none !important;
-    margin: 0 1px !important;
+    margin: 2px !important;
+     border-radius: 20px;
+    /* margin: 0 1px !important; */
+
     border: 1px solid;
   } 
 }
 
 /* Responsive CSS for Ochulo Travel Home Page */
 @media only screen and (max-width : 736px) {
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+         border-radius: 20px;
+  }
   .logo_wrapper {
     margin-top: -15px !important;
   }.logo_wrapper img {
@@ -263,7 +272,10 @@ section#content6 .custom-well.col-md-2:last-child {
   }.tp-parallax-wrap ul.nav.nav-tabs li{
     width: 100% !important;
     text-transform: none !important;
-    margin: 0 1px !important;
+    margin: 2px !important;
+    border-radius: 20px;
+    /* margin: 0 1px !important; */
+
     border: 1px solid;
   } 
 }
