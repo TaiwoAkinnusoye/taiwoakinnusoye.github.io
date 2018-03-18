@@ -286,3 +286,16 @@ section#content6 .custom-well.col-md-2:last-child {
     padding: 0 0 0 0 !important; 
   }
 }
+
+@media only screen and (min-width: 384px) {
+  .col-md-3 .filter-head, .col-md-3 .filter-area{
+  display: none;
+}
+
+.col-md-9.hotel-listing {
+  width: 100% !important;
+}
+  #page_content_wrapper.hasbg {
+    padding: 0 0 0 0 !important;
+  }
+}
