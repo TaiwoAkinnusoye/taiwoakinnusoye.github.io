@@ -302,11 +302,11 @@ section#content6 .custom-well.col-md-2:last-child {
 
 @media only screen and (min-width: 960px) {
   .switch-img {
-    float: left;
-    width: 41.6666667%;
+    float: left !important;
+    width: 41.6666667% !important;
   }
   .hotel-info {
-    float: right;
-    width: 58.33333333%
+    float: right !important;
+    width: 58.33333333% !important;
   }
 }
