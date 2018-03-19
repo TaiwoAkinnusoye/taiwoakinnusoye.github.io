@@ -298,14 +298,6 @@ section#content6 .custom-well.col-md-2:last-child {
   #page_content_wrapper.hasbg {
     padding: 0 0 0 0 !important;
   }
-  .package-complete-detail ul.nav-tabs > li {
-    width: 27%;
-    margin-bottom: 5px ;
-    border-radius: 5px !important;
-  }
-  .package-complete-detail .nav-tabs li a span {
-    display: inline-block !important;
-  }
 }
 
 @media only screen and (max-width: 960px) {
@@ -316,5 +308,18 @@ section#content6 .custom-well.col-md-2:last-child {
   .hotel-info {
     float: right !important;
     width: 58.33333333% !important;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .package-complete-detail ul.nav-tabs > li {
+    width: 27%;
+    margin-bottom: 5px ;
+  }
+  .package-complete-detail .nav-tabs > li > a {
+    border-radius: 5px !important;
+  } 
+  .package-complete-detail .nav-tabs li a span {
+    display: inline-block !important;
   }
 }
