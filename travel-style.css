@@ -214,6 +214,10 @@ section#content6 .custom-well.col-md-2:last-child {
   width: 100% !important;
 }
 
+.col-md-4.thumbnail img {
+  height: 240px;
+}
+
 /* Responsive CSS for Ochulo Travel Home Page */
 @media only screen and (max-width : 375px) {
   .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
