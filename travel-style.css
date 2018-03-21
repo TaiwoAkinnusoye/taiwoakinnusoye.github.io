@@ -55,27 +55,27 @@ font-family: fontawesome;
 }
 
 .tab-section label[for*='1']:before {
-  content: '\f13a';
+  content: '\f13a' !important;
 }
 
 .tab-section label[for*='2']:before {
-  content: '\f185';
+  content: '\f185'!important;
 }
 
 .tab-section label[for*='3']:before {
-  content: '\f186';
+  content: '\f186'!important;
 }
 
 .tab-section label[for*='4']:before {
-  content: '\f0f4';
+  content: '\f0f4'!important;
 }
 
 .tab-section label[for*='5']:before {
-  content: '\f030';
+  content: '\f030'!important;
 }
 
 .tab-section label[for*='6']:before {
-  content: '\f09d';
+  content: '\f09d'!important;
 }
 
 .tab-section label:hover {
