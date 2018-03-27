@@ -218,7 +218,7 @@ section#content6 .custom-well.col-md-2:last-child {
   height: 240px !important;
 }
 
-li.arrow.menu-item-4387:hover ul.sub-menu {
+li.menu-item-4387:hover ul.sub-menu {
   max-height: 400px !important;
   overflow-y: scroll !important;
 }
