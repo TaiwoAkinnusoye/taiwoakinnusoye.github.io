@@ -218,6 +218,11 @@ section#content6 .custom-well.col-md-2:last-child {
   height: 240px !important;
 }
 
+.menu-item menu-item-type-taxonomy.menu-item-object-destinationcat.menu-item-has-children.arrow menu-item-4387 a ul.sub-menu:hover {
+  max-height: 400px !important;
+  overflow-y: scroll !important;
+}
+
 /* Responsive CSS for Ochulo Travel Home Page */
 @media only screen and (max-width : 375px) {
   .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
