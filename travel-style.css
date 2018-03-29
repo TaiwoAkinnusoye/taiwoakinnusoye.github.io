@@ -336,15 +336,3 @@ li.menu-item-4387:hover ul.sub-menu {
   }
 }
  */
-
-body .mobile_menu_wrapper {
-  rgba(211,211,211,0.87) !important;
-}
-
-#sub-menu li a {
-  font-size: 17px !important;
-}
-
-#sub-menu .sub-menu li a {
-  font-size: 15px !important;
-}
