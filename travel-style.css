@@ -348,7 +348,7 @@ li.menu-item-4387:hover ul.sub-menu {
 /*     border: 1px solid black !important; */
     font-size: 20px;
   }
-  .nav li {
+  #mobile_main_menu .nav li {
     background: none !important;
   }
   #menu-item-4062 a{
