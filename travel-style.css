@@ -341,6 +341,13 @@ li.menu-item-4387:hover ul.sub-menu {
 
 @media only screen and (max-width: 960px){
   .mobile-menu-wrapper {
-  rgba(211,211,211) !important;
+  background: rgba(211,211,211, 0.87) !important;
+  }
+  #sub-menu li a {
+    font-size: 17px !important;
+  }
+  
+  #sub-menu .sub-menu li a {
+    15px !important;
   }
 }
