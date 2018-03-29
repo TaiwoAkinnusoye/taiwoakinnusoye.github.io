@@ -341,7 +341,7 @@ body .mobile_menu_wrapper {
   rgba(211,211,211,0.87) !important;
 }
 
-#sub-menu a {
+#sub-menu li a {
   font-size: 17px !important;
 }
 
