@@ -223,6 +223,10 @@ li.menu-item-4387:hover ul.sub-menu {
   overflow-y: scroll !important;
 }
 
+.mobile-menu-wrapper {
+  rgba(211,211,211,0.87) !important;
+}
+
 /* Responsive CSS for Ochulo Travel Home Page */
 @media only screen and (max-width : 375px) {
   .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
