@@ -217,12 +217,12 @@ section#content6 .custom-well.col-md-2:last-child {
 .col-md-4 .thumbnail img {
   height: 240px !important;
 }
-
+@media only screen and (min-width: 1024px) {
 li.menu-item-4387:hover ul.sub-menu {
   max-height: 400px !important;
   overflow-y: scroll !important;
 }
-
+}
 
 
 /* Responsive CSS for Ochulo Travel Home Page */
