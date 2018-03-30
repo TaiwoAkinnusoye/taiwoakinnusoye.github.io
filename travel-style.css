@@ -340,7 +340,7 @@ li.menu-item-4387:hover ul.sub-menu {
  */
 
 .mobile_menu_wrapper {
-  background: rgba(211,211,211,0.9) !important;
+  background: rgba(211,211,211,0.7) !important;
 }
 
 @media only screen and (max-width:960px) {
