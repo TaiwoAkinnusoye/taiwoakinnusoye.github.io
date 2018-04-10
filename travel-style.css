@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden !important;
+}
+
+.boxed-p {
+  border: 1px solid #ddd;
+  margin: 20px 0px;
+  padding: 15px;
+  background: #eee;
+  min-height: 128px;
+}
+
+main {
+  min-width: 320px;
+  /*max-width: 800px;*/
+  padding: 50px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.tab-section section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+.tab-section input {
+  display: none;
+}
+
+.tab-section label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+  pointer: cursor;
+  width: 16%;
+}
+
+.tab-section label:before {
+font-family: fontawesome;
+ font-weight: normal;
+ margin-right: 10px;
+}
+
+.tab-section label[for*='1']:before {
+  content: '\f13a' !important;
+}
+
+.tab-section label[for*='2']:before {
+  content: '\f185'!important;
+}
+
+.tab-section label[for*='3']:before {
+  content: '\f186'!important;
+}
+
+.tab-section label[for*='4']:before {
+  content: '\f0f4'!important;
+}
+
+.tab-section label[for*='5']:before {
+  content: '\f030'!important;
+}
+
+.tab-section label[for*='6']:before {
+  content: '\f09d'!important;
+}
+
+.tab-section label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+.tab-section input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid orange;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5,
+#tab6:checked ~ #content6 {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  .tab-section label {
+    font-size: 0;
+  }
+
+  .tab-section label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .tab-section label {
+    padding: 15px;
+  }
+}
+
+.tab-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+ul {
+  list-style: disc;
+}
+
+figcaption {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.selected-pkg-text {
+  margin-bottom: 30px;
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+.collapsed-txt {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  max-height: 250px; 
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 20px 10px;
+  background-color: #e7e6e3;
+}
+
+section#content5 .col-md-3 .thumbnail img {
+/*     width: 266px !important; */
+       height: 250px !important;
+}
+section#content5 .col-md-3 .thumbnail{
+  width: 250px !important;
+}
+
+/* section#content5 .col-md-3 .slick-slide{
+  width: 270px !important;
+} */
+
+section#content5 .slick-prev{
+    display: none !important;
+/*     float: left !important;
+    margin-top: 100px !important; */
+}
+section#content4 .slick-prev {
+  display: none !important;
+}
+section#content3 .slick-prev {
+  display: none !important;
+}
+section#content5 .slick-next{
+    display: none !important;
+/*     float: right !important;
+    margin-top: -179px !important; */
+}
+section#content4 .slick-next {
+  display: none !important;
+}
+section#content3 .slick-next {
+  display: none !important;
+}
+/* .carousel-inner {
+  height: 300px;
+} */
+
+.page-id-3557 #payment-form #Debit_Card div.col-md-3 div.col-md-12 img{
+  width: 100% !important;
+}
+
+section#content3 .well.col-md-12, section#content4 .well.col-md-12{
+  text-align: center !important;
+  padding: 0 0 0 10px !important;
+}
+
+
+section#content6 .custom-well.col-md-2 {
+  margin-right: 20px !important;
+}
+
+section#content6 .custom-well.col-md-2:last-child {
+  margin-right: 0px !important;
+}
+
+
+.custom-well {
+    min-height: 20px !important;
+    margin-bottom: 20px !important;
+    background-color: #f5f5f5 !important;
+    border: 1px solid #e3e3e3 !important;
+    border-radius: 4px !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05) !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05) !important;
+    width: 250px;
+    padding: 0 0 0 10px !important;
+}
+
+.col-md-3 .filter-head, .col-md-3 .filter-area{
+  display: none;
+}
+
+.col-md-9.hotel-listing {
+  width: 100% !important;
+}
+
+.col-md-4 .thumbnail img {
+  height: 240px !important;
+}
+@media only screen and (min-width: 1024px) {
+li.menu-item-4387:hover ul.sub-menu {
+  max-height: 400px !important;
+  overflow-y: scroll !important;
+}
+}
+
+
+/* Responsive CSS for Ochulo Travel Home Page */
+@media only screen and (max-width : 375px) {
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+         border-radius: 20px;
+  }
+  .logo_wrapper {
+    margin-top: -15px !important;
+  }.logo_wrapper img {
+    width: 50% !important;
+  }div.tp-bgimg {
+/*    display: none !important;  */
+  }div.ppb_tourcat_grid, div.ppb_destination_metro, div.ppb_header{
+/*     display: none !important; */
+  }div.ppb_content_half_bg{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }div.one.fullwidth.container div.col-md-6 h5,  div.one.fullwidth.container div.col-md-6 p, div.one.fullwidth.container div.col-md-6.pull-right{
+  display: none !important; 
+  }#mobile_main_menu li a:after{
+/*    content: url("https://www.ochulo.com/wp-content/uploads/2018/02/sort-down.png");  */
+  }.page-id-3557 .col-md-3 .img-responsive{
+   display: none !important; 
+  }.tp-parallax-wrap ul.nav.nav-tabs li{
+    width: 100% !important;
+    text-transform: none !important;
+    margin: 2px !important;
+     border-radius: 20px;
+    /* margin: 0 1px !important; */
+
+    border: 1px solid;
+  } 
+}
+
+/* Responsive CSS for Ochulo Travel Home Page */
+@media only screen and (max-width : 736px) {
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+         border-radius: 20px;
+  }
+  .logo_wrapper {
+    margin-top: -15px !important;
+  }.logo_wrapper img {
+    width: 50% !important;
+  }div.tp-bgimg {
+/*    display: none !important;  */
+  }div.ppb_tourcat_grid, div.ppb_destination_metro, div.ppb_header{
+/*     display: none !important; */
+  }div.ppb_content_half_bg{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }div.one.fullwidth.container div.col-md-6 h5,  div.one.fullwidth.container div.col-md-6 p, div.one.fullwidth.container div.col-md-6.pull-right{
+  display: none !important; 
+  }#mobile_main_menu li a:after{
+/*    content: url("https://www.ochulo.com/wp-content/uploads/2018/02/sort-down.png");  */
+  }.page-id-3557 .col-md-3 .img-responsive{
+   display: none !important; 
+  }.tp-parallax-wrap ul.nav.nav-tabs li{
+    width: 100% !important;
+    text-transform: none !important;
+    margin: 2px !important;
+    border-radius: 20px;
+    /* margin: 0 1px !important; */
+
+    border: 1px solid;
+  } 
+}
+
+/* Responsive CSS for Vacation Packages on Ochulo Travel */
+@media only screen and (min-width: 320px) {
+  #page_content_wrapper.hasbg {
+    padding: 0 0 0 0 !important; 
+  }
+}
+
+@media only screen and (min-width: 384px) {
+  .col-md-3 .filter-head, .col-md-3 .filter-area{
+  display: none;
+}
+
+.col-md-9.hotel-listing {
+  width: 100% !important;
+}
+  #page_content_wrapper.hasbg {
+    padding: 0 0 0 0 !important;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .switch-img {
+    float: left !important;
+    width: 41.6666667% !important;
+  }
+  .hotel-info {
+    float: right !important;
+    width: 58.33333333% !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:767px) {
+  .package-complete-detail ul.nav-tabs > li {
+    width: 30%;
+    margin-bottom: 5px ;
+  }
+  .package-complete-detail .nav-tabs li a span {
+    display: inline-block !important;
+  }
+}
+
+/* @media only screen and (min width: 320px) and (max-width: 767px) {
+   .package-complete-detail .nav-tabs > li > a {
+    border-radius: 5px !important;
+  }
+}
+ */
+
+.mobile_menu_wrapper {
+  background: rgba(211,211,211,0.7) !important;
+}
+
+@media only screen and (max-width:960px) {
+  #mobile_main_menu li a {
+/*     border: 1px solid black !important; */
+    font-size: 20px;
+  }
+  #sub_menu li.menu-item {
+    background: none !important;
+  }
+  #menu-item-4062 a,#menu-item-4428 a,#menu-item-4221 a,#menu-item-4390 a,#menu-item-4387 a, #menu-item-4392 a{
+    font-size: 15px !important;
+    background: linear-gradient(#4f4f4f,#1fa1f2);
+    opacity: 0.8;
+    border: 1px solid transparent;
+    border-radius: 55px;
+    color: #fff !important;
+  }
+}
