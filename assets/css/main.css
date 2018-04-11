@@ -415,7 +415,7 @@
 			font-weight: normal;
 			text-transform: none !important;
 			color: #e5e6e7;
-			content: '\f1ce';
+/* 			content: '\f1ce'; */
 			cursor: default;
 			display: block;
 			font-size: 2em;
