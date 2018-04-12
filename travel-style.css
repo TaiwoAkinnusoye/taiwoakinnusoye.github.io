@@ -26,7 +26,7 @@ main {
   background: #fff;
 }
 
-.tab-section {
+div.col-md-12.tab-section {
   padding: 0 80px;
 }
 
