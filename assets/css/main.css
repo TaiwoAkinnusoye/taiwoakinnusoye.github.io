@@ -2157,3 +2157,16 @@
       			.main.style1 p {
 	    			font-size: 18px;
 			}
+			.myClass {
+	position: relative;
+	text-align: center;
+}
+
+.centeredText {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 60px;
+}
