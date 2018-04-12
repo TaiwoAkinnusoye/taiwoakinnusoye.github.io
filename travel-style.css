@@ -30,6 +30,10 @@ main {
   padding: 0px 80px !important;;
 }
 
+.selected-pkg {
+  padding: 0px 80px !important;
+}
+
 .tab-section section {
   display: none;
   padding: 20px 0 0;
