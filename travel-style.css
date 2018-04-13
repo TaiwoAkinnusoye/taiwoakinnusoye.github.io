@@ -378,3 +378,7 @@ li.menu-item-4387:hover ul.sub-menu {
     color: #fff !important;
   }
 }
+
+select.ui-datepicker-month, select.ui-datepicker-year {
+  display: inline-block !important;
+}
