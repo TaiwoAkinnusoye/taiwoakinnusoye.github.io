@@ -175,6 +175,12 @@ section#content5 .slick-prev{
 section#content4 .slick-prev {
   display: none !important;
 }
+.fading .slick-prev {
+  display: none !important;
+}
+.fading .slick-next {
+  display: none !important;
+}
 section#content3 .slick-prev {
   display: none !important;
 }
