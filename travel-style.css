@@ -382,3 +382,9 @@ li.menu-item-4387:hover ul.sub-menu {
 select.ui-datepicker-month, select.ui-datepicker-year {
   display: inline-block !important;
 }
+button.slick-prev {
+  display: none !important;
+}
+button.slick-next {
+  display: none !important;
+}
