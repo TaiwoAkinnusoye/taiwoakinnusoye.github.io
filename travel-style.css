@@ -175,10 +175,10 @@ section#content5 .slick-prev{
 section#content4 .slick-prev {
   display: none !important;
 }
-.fading button.slick-prev.slick-arrow {
+button.slick-prev.slick-arrow {
   display: none !important;
 }
-.fading button.slick-next.slick-arrow {
+button.slick-next.slick-arrow {
   display: none !important;
 }
 section#content3 .slick-prev {
