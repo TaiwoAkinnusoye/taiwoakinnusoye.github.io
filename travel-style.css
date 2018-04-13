@@ -388,3 +388,7 @@ button.slick-prev {
 button.slick-next {
   display: none !important;
 }
+.fading img{
+  max-height: 100vh;
+  min-width: 100vw;
+}
