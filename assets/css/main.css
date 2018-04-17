@@ -8,7 +8,7 @@
 */
 
 /* Reset */
-/* 
+
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -46,19 +46,19 @@
 
 	body {
 		-webkit-text-size-adjust: none;
-	} */
+	} 
 
 /* Box Model */
 
-/* 	*, *:before, *:after {
+	*, *:before, *:after {
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
- */
+ 
 /* Basic */
 
-/* 	@-ms-viewport {
+	@-ms-viewport {
 		width: device-width;
 	}
 
@@ -81,7 +81,7 @@
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
-		} */
+		} 
 
 /* Spinner */
 
@@ -400,15 +400,15 @@
 	}
 
 		body:before {
-/* 			-moz-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important; */
-/* 			-webkit-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important; */
-/* 			-ms-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important; */
-/* 			animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important; */
-/* 			-moz-transform-origin: 50% 50%; */
-/* 			-webkit-transform-origin: 50% 50%; */
-/* 			-ms-transform-origin: 50% 50%; */
-/* 			transform-origin: 50% 50%; */
-/* 			-moz-osx-font-smoothing: grayscale; */
+/* 			-moz-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important; 
+/* 			-webkit-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important; 
+/* 			-ms-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important; 
+/* 			animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important; 
+/* 			-moz-transform-origin: 50% 50%; 
+/* 			-webkit-transform-origin: 50% 50%; 
+/* 			-ms-transform-origin: 50% 50%; 
+/* 			transform-origin: 50% 50%; 
+/* 			-moz-osx-font-smoothing: grayscale; 
 /* 			-webkit-font-smoothing: antialiased; */
 			font-family: FontAwesome;
 			font-style: normal;
@@ -471,23 +471,23 @@
 			line-height: 2.025em;
 		}
 
-	} */
+	} 
 
 /* Type */
 
 	body, input, textarea, select {
-		font-family: "Source Sans Pro", "sans-serif";
-		font-weight: 300;
-		font-size: 18pt;
-		line-height: 1.75em;
-		color: #39454b;
-		letter-spacing: 0.025em;
+/* 		font-family: "Source Sans Pro", "sans-serif"; */
+/* 		font-weight: 300; */
+/* 		font-size: 18pt; */
+/* 		line-height: 1.75em; */
+/* 		color: #39454b; */
+/* 		letter-spacing: 0.025em; */
 	}
 
 		@media screen and (max-width: 1920px) {
 
 			body, input, textarea, select {
-				font-size: 17pt;
+/* 				font-size: 17pt; */
 			}
 
 		}
@@ -495,7 +495,7 @@
 		@media screen and (max-width: 1680px) {
 
 			body, input, textarea, select {
-				font-size: 15pt;
+/* 				font-size: 15pt; */
 			}
 
 		}
@@ -503,7 +503,7 @@
 		@media screen and (max-width: 1280px) {
 
 			body, input, textarea, select {
-				font-size: 13pt;
+/* 				font-size: 13pt; */
 			}
 
 		}
@@ -511,7 +511,7 @@
 		@media screen and (max-width: 1000px) {
 
 			body, input, textarea, select {
-				font-size: 13pt;
+/* 				font-size: 13pt; */
 			}
 
 		}
@@ -519,16 +519,16 @@
 		@media screen and (max-width: 736px) {
 
 			body, input, textarea, select {
-				font-size: 12pt;
-				line-height: 1.5em;
+/* 				font-size: 12pt; */
+/* 				line-height: 1.5em; */
 			}
 
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 900;
+/* 		font-weight: 900; */
 		color: inherit;
-		letter-spacing: -0.0325em;
+/* 		letter-spacing: -0.0325em; */
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -537,15 +537,15 @@
 		}
 
 	h2 {
-		font-size: 2.25em;
-		line-height: 1.25em;
-		letter-spacing: -0.05em;
+/* 		font-size: 2.25em; */
+/* 		line-height: 1.25em; */
+/* 		letter-spacing: -0.05em; */
 	}
 
 	@media screen and (max-width: 736px) {
 
 		h2 {
-			font-size: 1.5em;
+/* 			font-size: 1.5em; */
 		}
 
 	}
