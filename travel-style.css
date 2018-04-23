@@ -393,3 +393,41 @@ button.slick-next {
   min-width: 100vw;
   margin-top: -13rem;
 }
+
+/* Responsive CSS for mobile flights results page */
+@media only screen and (max-width: 414px) {
+  .result-box .result-box-inner {
+	display: block !important;
+/*   table-layout: fixed; */
+}
+
+.result-box .result-details, .result-box .ticketinfo {
+	display: block !important;
+
+}
+
+.result-box .ticketinfo .info{
+	display: block !important;
+/* 	table-layout: fixed; */
+	margin-bottom: 60px !important;
+}
+
+.result-box .prices {
+	float: left !important;
+}
+
+.result-box .prices .price-total, .result-box .prices .price-pax {
+	width: 170px !important;
+}
+
+.result-box .segment-inner .airlines img {
+	margin-left: 16px !important;
+	margin-top: -40px !important;
+  padding-bottom: 5px;
+	width: 85px !important;
+}
+
+.result-box .segment-inner .location {
+	display: none !important;
+}
+}
