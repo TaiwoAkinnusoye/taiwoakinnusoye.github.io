@@ -57,7 +57,7 @@ main {
   color: #bbb;
   border: 1px solid transparent;
   pointer: cursor;
-  width: 16%;
+  width: 15%;
 }
 
 .tab-section label:before {
