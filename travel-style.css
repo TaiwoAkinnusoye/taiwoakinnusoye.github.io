@@ -433,6 +433,9 @@ button.slick-next {
 .result-box .segment-inner .location {
 	display: none !important;
 }
+.dropdown-toggle.btn-link {
+ margin-left: -195px;
+  }
 }
 @media only screen and (min-width: 320px) {
 	.result-box .segment-inner .departure, .result-box .segment-inner .duration, .result-box .segment-inner .airlines, .result-box .segment-inner .destination {
