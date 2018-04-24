@@ -33,7 +33,11 @@ main {
 .selected-pkg {
   padding: 0px 80px !important;
 }
-
+@media only screen and (max-width: 414px) {
+  .selected-pkg {
+    padding: 0px 10px !important;	
+}
+}
 .tab-section section {
   display: none;
   padding: 20px 0 0;
