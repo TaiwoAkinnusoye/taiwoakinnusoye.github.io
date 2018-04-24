@@ -436,7 +436,7 @@ button.slick-next {
 }
 @media only screen and (min-width: 320px) {
 	.result-box .segment-inner .departure, .result-box .segment-inner .duration, .result-box .segment-inner .airlines, .result-box .segment-inner .destination {
-  		width: 25%;
+  		width: 25% !important;
   		text-align: center;
   		padding: 0px 3px;
 }	
@@ -444,6 +444,6 @@ button.slick-next {
 		text-align: center;
 	}
 	.result-box .prices .price-pax {
-		width: 90px;
+		width: 90px !important;
 	}
 }
