@@ -449,4 +449,7 @@ button.slick-next {
 	.result-box .prices .price-pax {
 		width: 90px !important;
 	}
+	.dropdown-toggle.btn-link {
+ margin-left: -380px;
+  }
 }
