@@ -10,15 +10,6 @@ body{
   overflow-x: hidden !important;
 }
 
-.filter-area{
-	background: white !important;
-	border: solid 1px #e1e1e1 !important;
-}
-
-.result-box .ticketinfo > .inner{
-	background-color: white !important;
-	border: solid 1px #e1e1e1 !important;
-}
 
 .boxed-p {
   border: 1px solid #ddd;
