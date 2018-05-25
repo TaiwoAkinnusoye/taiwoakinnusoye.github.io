@@ -17,6 +17,9 @@
     font: inherit;
     vertical-align: baseline;
   }
+.page_content_wrapper img{
+  margin-right:14px !important;
+}
 
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
