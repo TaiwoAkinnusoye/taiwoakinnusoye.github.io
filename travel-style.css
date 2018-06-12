@@ -10,7 +10,7 @@ body{
   overflow-x: hidden !important;
 }
 
-div#rhs_section.fli-intl-rhs.pull-left{
+div#rhs_section.pull-left{
   display: none !important;
 }
 
