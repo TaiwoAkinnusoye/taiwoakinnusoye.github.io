@@ -11,7 +11,7 @@ body{
 }
 
 #rhs_section{
-  display: none;
+  display: none !important;
 }
 
 .filter-area{
