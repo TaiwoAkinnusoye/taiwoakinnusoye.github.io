@@ -14,6 +14,10 @@ div#rhs_section.pull-left{
   display: none !important;
 }
 
+div.hasbg.container .col-md-8 {
+	width: 80%; !!important;
+}
+
 .filter-area{
 	background: white !important;
 	border: solid 1px #e1e1e1 !important;
