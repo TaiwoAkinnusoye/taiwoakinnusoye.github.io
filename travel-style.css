@@ -26,6 +26,11 @@ div.hasbg.container .col-md-8 {
 	background-image: none !important;
 }
 
+.btn-danger {
+	background-color: #1fa1f4 !important;
+	border-color: #1fa1f4 !important;
+}
+
 .filter-area{
 	background: white !important;
 	border: solid 1px #e1e1e1 !important;
