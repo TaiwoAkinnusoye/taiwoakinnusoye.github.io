@@ -10,7 +10,7 @@ body{
   overflow-x: hidden !important;
 }
 
-.col-md-8 col-xs-12{
+.col-md-8 .results{
 	width: 80% !important;
 }
 
