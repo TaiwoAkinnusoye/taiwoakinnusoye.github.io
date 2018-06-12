@@ -24,12 +24,15 @@ div.hasbg.container .col-md-8 {
 .result-box .segment-inner .duration,
 .result-box .segment-inner .destination {
 	background-image: none !important;
-	vertical-align: initial !important;
 }
 
 .btn-danger {
 	background-color: #1fa1f4 !important;
 	border-color: #1fa1f4 !important;
+}
+
+.result-box .segment-inner {
+	padding: 14px 0px !important;
 }
 
 .filter-area{
