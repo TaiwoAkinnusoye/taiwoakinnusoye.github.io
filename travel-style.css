@@ -10,11 +10,11 @@ body{
   overflow-x: hidden !important;
 }
 
-.col-md-8.col-xs-12{
+.col-md-8 col-xs-12{
 	width: 100% !important;
 }
 
-.fli-int-rhs.pull-left{
+.fli-int-rhs pull-left{
 	display:none !important;
 }
 
