@@ -20,7 +20,7 @@ div.hasbg.container .col-md-8 {
 
 
 .result-box .segment-inner .airlines, .result-box .segment-inner .departure, .result-box .segment-inner .duration, .result-box .segment-inner .destination {
-	background-image: none !important
+	background-image: none !important;
 }
 
 .filter-area{
