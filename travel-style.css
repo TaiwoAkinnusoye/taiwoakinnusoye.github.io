@@ -18,6 +18,11 @@ div.hasbg.container .col-md-8 {
 	width: 80%; !important;
 }
 
+
+.result-box .segment-inner .airlines, .result-box .segment-inner .departure, .result-box .segment-inner .duration, .result-box .segment-inner .destination {
+	background-image: none !important
+}
+
 .filter-area{
 	background: white !important;
 	border: solid 1px #e1e1e1 !important;
