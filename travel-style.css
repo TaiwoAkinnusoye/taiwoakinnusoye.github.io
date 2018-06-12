@@ -15,7 +15,7 @@ div#rhs_section.pull-left{
 }
 
 div.hasbg.container .col-md-8 {
-	width: 80%; !!important;
+	width: 80%; !important;
 }
 
 .filter-area{
@@ -388,83 +388,4 @@ li.menu-item-4387:hover ul.sub-menu {
 @media only screen and (max-width:960px) {
   #mobile_main_menu li a {
 /*     border: 1px solid black !important; */
-    font-size: 20px;
-  }
-  #sub_menu li.menu-item {
-    background: none !important;
-  }
-  #menu-item-4062 a,#menu-item-4428 a,#menu-item-4221 a,#menu-item-4390 a,#menu-item-4387 a, #menu-item-4392 a{
-    font-size: 18px !important;
-    //background: linear-gradient(#4f4f4f,#1fa1f2);
-    //background-color: black !important;
-    opacity: 0.8;
-    border: 1px solid transparent;
-    border-radius: 20px;
-    color: black !important;
-  }
-}
-
-select.ui-datepicker-month, select.ui-datepicker-year {
-  display: inline-block !important;
-}
-button.slick-prev {
-  display: none !important;
-}
-button.slick-next {
-  display: none !important;
-}
-.fading img{
-  max-height: 100vh;
-  min-width: 100vw;
-  margin-top: -13rem;
-}
-
-/* Responsive CSS for mobile flights results page */
-@media only screen and (max-width: 425px) {
-  .result-box .result-box-inner {
-	display: block !important;
-/*   table-layout: fixed; */
-}
-
-.result-box .result-details, .result-box .ticketinfo {
-	display: block !important;
-
-}
-
-.result-box .ticketinfo .info{
-	display: block !important;
-/* 	table-layout: fixed; */
-	margin-bottom: 60px !important;
-}
-
-.result-box .prices {
-	float: left !important;
-}
-
-.result-box .prices .price-total, .result-box .prices .price-pax {
-	width: 170px !important;
-}
-
-.result-box .segment-inner .airlines img {
-	margin-left: 16px !important;
-	margin-top: -40px !important;
-  padding-bottom: 5px;
-}
-
-.result-box .segment-inner .location {
-	display: none !important;
-}
-}
-@media only screen and (min-width: 320px) {
-	.result-box .segment-inner .departure, .result-box .segment-inner .duration, .result-box .segment-inner .airlines, .result-box .segment-inner .destination {
-  		width: 25% !important;
-  		text-align: center;
-  		padding: 0px 3px;
-}	
-	.result-box .segment-inner .iata-time {
-		text-align: center;
-	}
-	.result-box .prices .price-pax {
-		width: 90px !important;
-	}
-}
+    
