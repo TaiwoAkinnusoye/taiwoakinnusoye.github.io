@@ -14,8 +14,8 @@ body{
 	width: 80% !important;
 }
 
-.fli-intl-rhs pull-left{
-	display:none !important;
+#rhs_section{
+	display: none !important;
 }
 
 .filter-area{
