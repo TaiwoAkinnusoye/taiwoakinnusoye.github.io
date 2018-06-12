@@ -24,6 +24,7 @@ div.hasbg.container .col-md-8 {
 .result-box .segment-inner .duration,
 .result-box .segment-inner .destination {
 	background-image: none !important;
+	vertical-align: initial !important;
 }
 
 .btn-danger {
