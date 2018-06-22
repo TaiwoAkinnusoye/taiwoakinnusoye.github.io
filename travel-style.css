@@ -205,12 +205,12 @@ section#content5 .col-md-3 .thumbnail{
   width: 270px !important;
 } */
 
-#1__col1__100 .slick-prev.slick-arrow{
+button.slick-prev.slick-arrow{
     display: none !important;
 /*     float: left !important;
     margin-top: 100px !important; */
 }
-#1__col1__100 .slick-next.slick-arrow {
+button.slick-next.slick-arrow {
   display: none !important;
 }
 /* .carousel-inner {
