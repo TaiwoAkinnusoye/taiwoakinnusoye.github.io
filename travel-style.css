@@ -205,26 +205,12 @@ section#content5 .col-md-3 .thumbnail{
   width: 270px !important;
 } */
 
-section#content5 .slick-prev{
+.slick-prev{
     display: none !important;
 /*     float: left !important;
     margin-top: 100px !important; */
 }
-section#content4 .slick-prev {
-  display: none !important;
-}
-section#content3 .slick-prev {
-  display: none !important;
-}
-section#content5 .slick-next{
-    display: none !important;
-/*     float: right !important;
-    margin-top: -179px !important; */
-}
-section#content4 .slick-next {
-  display: none !important;
-}
-section#content3 .slick-next {
+.slick-next {
   display: none !important;
 }
 /* .carousel-inner {
