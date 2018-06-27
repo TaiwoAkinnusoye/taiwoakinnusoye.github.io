@@ -216,7 +216,7 @@ section#content5 .col-md-3 .thumbnail{
 } */
 
 .page-id-3557 #payment-form #Debit_Card div.col-md-3 div.col-md-12 img{
-  width: 100% !important;
+  width:!important;
 }
 
 section#content3 .well.col-md-12, section#content4 .well.col-md-12{
@@ -271,6 +271,9 @@ li.menu-item-4387:hover ul.sub-menu {
          border-radius: 20px;
   }
 .page_content_wrapper img{
+  width:100% !important;
+}
+#awos img{
   width:100% !important;
 }
   .logo_wrapper {
