@@ -26,6 +26,10 @@ div.hasbg.container .col-md-8 {
 	background-image: none !important;
 }
 
+.result-box .segment-inner .iata-time {
+	font-size: 14px !important;
+}
+
 .btn-danger {
 	background-color: #1fa1f4 !important;
 	border-color: #1fa1f4 !important;
