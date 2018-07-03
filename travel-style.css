@@ -394,7 +394,7 @@ li.menu-item-4387:hover ul.sub-menu {
 /*     border: 1px solid black !important; */
 	}
 }
-@media only screen and (max-wdth: 414px) {
+@media only screen and (max-width: 414px) {
 	.result-box .result-details, .result-box .ticketinfo{
 		display: block !important;
 	}  
