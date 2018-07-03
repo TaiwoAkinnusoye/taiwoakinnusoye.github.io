@@ -392,4 +392,9 @@ li.menu-item-4387:hover ul.sub-menu {
 @media only screen and (max-width:960px) {
   #mobile_main_menu li a {
 /*     border: 1px solid black !important; */
-    
+	}
+@media only screen and (max-wdth: 420px) {
+	.result-details{
+		display: block !important;
+	}  
+	  }
