@@ -13,7 +13,7 @@ body{
 div#rhs_section.pull-left{
   display: none !important;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
 div.hasbg.container .col-md-8 {
 	width: 80%; !important;
 }
