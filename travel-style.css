@@ -405,7 +405,7 @@ li.menu-item-4387:hover ul.sub-menu {
 	 .masonry.gutterless .brick {
     display: none;
   }
-  .masonry.gutterless .brick:first-of-type {
+  .masonry.gutterless .brick:nth-child(4) {
     display: block;
   }
 	  }
