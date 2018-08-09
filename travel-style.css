@@ -380,6 +380,9 @@ li.menu-item-4387:hover ul.sub-menu {
   .package-complete-detail .nav-tabs li a span {
     display: inline-block !important;
   }
+.grid.gallery.portrait .element .grid.gallery4{
+min-height:400px !important;
+}
 }
 
 /* @media only screen and (min width: 320px) and (max-width: 767px) {
