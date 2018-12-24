@@ -14,6 +14,14 @@ body{
   width: 100%;
 }
 
+.element.grid.center.classic4_cols.double_size.animated1 {
+  width: 100%;
+}
+
+.element.grid.center.classic4_cols.double_size.animated1 img {
+  border-radius: 0px;
+}
+
 #toTop {
 	width: 45px !important;
 }
