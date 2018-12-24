@@ -15,7 +15,7 @@ body{
 }
 
 .element.grid.center.classic4_cols.double_size.animated1 {
-  width: 100%;
+  width: 100% !important;
 }
 
 .element.grid.center.classic4_cols.double_size.animated1 img {
