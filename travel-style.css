@@ -10,6 +10,14 @@ body{
   overflow-x: hidden !important;
 }
 
+.page-id-3557 a{
+  width: 100%;
+}
+
+#toTop {
+	width: 45px !important;
+}
+
 div#rhs_section.pull-left{
   display: none !important;
 }
