@@ -14,11 +14,12 @@ body{
   width: 100%;
 }
 .underline-exp {
-border-color: #55bddc;
-border-width: 3px;
-margin-top: -25px;
-margin-bottom: 25px;
-width: 60px;}
+    margin-left: 42%;
+    border-color: #616769;
+    border-width: 2px;
+    margin-bottom: 25px;
+    width: 103px;
+    text-align: center;}
 
 .page-id-3557 .four_cols.gallery.metro .element.double_size {
   width: 100% !important;
