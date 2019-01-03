@@ -300,8 +300,8 @@ li.menu-item-4387:hover ul.sub-menu {
 .page_content_wrapper img{
   width:100% !important;
 }
-.rev_slider_wrapper fullwidthbanner-container{
-	display:none !important;
+.rev_slider_wrapper{
+display:none !important;
 }
 #awos{
   width:100% !important;
