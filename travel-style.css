@@ -450,7 +450,11 @@ display: none;
 	}
 }
 
-
+@media (min-width: 450px) {
+	#flight-tab-mobile, #hotel-tab-mobile, #packages-tab-mobile {
+	display:none;
+	}
+}
 
 
 
