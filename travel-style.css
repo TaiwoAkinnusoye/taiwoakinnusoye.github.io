@@ -459,5 +459,5 @@ display: none;
 
 @media (min-width: 450px)
 .mobile-tab19 {
-    display: inline !important;
+    display: none ;
 }
