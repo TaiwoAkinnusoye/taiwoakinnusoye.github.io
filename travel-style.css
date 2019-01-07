@@ -756,6 +756,8 @@ font-size: 22px;
   }
 	#foodanddrink .foodanddrink-title p ~ hr, .weather-title ~ hr{
 	margin-top: 2px !important;
+	width: 39px !important;
+    	border-width: 2px !important; 
 	}
 	.welcome-body {
 	font-size: 14px;
