@@ -798,4 +798,16 @@ font-size: 22px;
 	.hr-2 {
 	margin-top: 6px;
 	}
+	.travelpacklist-title {
+	margin-top: 22px;
+	}
+	#travelpacklist img {
+	width: 6%;
+	}
+	#travelpacklist .col-md-6 p {
+	font-size: 16px !important;
+	}
+	#travelpacklist .col-md-6 p span img {
+	width: 6% !important;
+	}
 }
