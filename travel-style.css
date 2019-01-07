@@ -746,4 +746,12 @@ grid-row-end: 3;
   #navbar {
     display: none;
   }
+.welcome-title {
+font-size: 22px;	
+}
+.welcome-title ~ hr {
+    margin-top: -13px !important;
+    width: 39px !important;
+    border-width: 2px !important; 
+  }
 }
