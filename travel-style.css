@@ -790,6 +790,8 @@ font-size: 22px;
 	}
 	.nightlife-clubName, .nightlife-clubDest, .nightlife-clubCountry {
 	font-size: 11px;
+	text-transform: uppercase;
+	color: #000;
 	}
 	.hr-1 {
 	margin-top: 6px;
