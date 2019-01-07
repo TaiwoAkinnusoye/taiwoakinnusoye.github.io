@@ -746,10 +746,10 @@ grid-row-end: 3;
   #navbar {
     display: none;
   }
-.welcome-title,.activity-header p, #weather .weather-title, #nightlife .nightlife-title {
+.welcome-title,.activity-header p, #weather .weather-title, #nightlife .nightlife-title, #foodanddrink .foodanddrink-title p, #fashionpick .fashionpick-title, #travelpacklist .travelpacklist-title p {
 font-size: 22px;	
 }
-.welcome-title ~ hr, .activity-header hr, .weather-title ~ hr, #nightlife .nightlife-title ~ hr {
+.welcome-title ~ hr, .activity-header hr, .weather-title ~ hr, #nightlife .nightlife-title ~ hr, #foodanddrink .foodanddrink-title p ~ hr, #fashionpick .fashionpick-title ~ hr, #travelpacklist .travelpacklist-title p ~ hr {
     margin-top: -5px !important;
     width: 39px !important;
     border-width: 2px !important; 
