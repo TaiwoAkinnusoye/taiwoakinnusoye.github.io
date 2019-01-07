@@ -764,5 +764,9 @@ font-size: 22px;
 	}
 	#activities {
 	 padding-top: 1%;
+	 margin-left: 35px;
+	}
+	#activities .card {
+	width: 100%;
 	}
 }
