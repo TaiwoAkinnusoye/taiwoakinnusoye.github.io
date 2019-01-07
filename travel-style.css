@@ -741,3 +741,9 @@ grid-row-end: 3;
 #travelpacklist img {
 	width: 10%;
 }
+
+@media (max-width: 450px) {
+  #navbar {
+    display: none;
+  }
+}
