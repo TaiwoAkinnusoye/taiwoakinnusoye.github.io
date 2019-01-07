@@ -808,5 +808,11 @@ font-size: 22px;
 	}
 	#travelpacklist .col-md-6 p {
 	font-size: 16px !important;
+	padding-bottom: 5px !important;
+	font-weight: lighter;
+	}
+	#travelpacklist .col-md-6 p span {
+	position: relative;
+	top: 5px;
 	}
 }
