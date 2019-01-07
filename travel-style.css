@@ -746,10 +746,10 @@ grid-row-end: 3;
   #navbar {
     display: none;
   }
-.welcome-title,.activity-header p, #weather .weather-title {
+.welcome-title,.activity-header p, #weather .weather-title, #nightlife .nightlife-title {
 font-size: 22px;	
 }
-.welcome-title ~ hr, .activity-header hr, .weather-title ~ hr {
+.welcome-title ~ hr, .activity-header hr, .weather-title ~ hr, #nightlife .nightlife-title ~ hr {
     margin-top: -5px !important;
     width: 39px !important;
     border-width: 2px !important; 
