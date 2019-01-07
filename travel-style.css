@@ -750,15 +750,19 @@ grid-row-end: 3;
 font-size: 22px;	
 }
 .welcome-title ~ hr, .activity-header hr {
-    margin-top: -8px !important;
+    margin-top: -5px !important;
     width: 39px !important;
     border-width: 2px !important; 
   }
 	.welcome-body {
 	font-size: 14px;
 	padding: 0px 28px;
+	margin-top: -16px;
 	}
 	.readMore-btn {
 	font-size: 14px;
+	}
+	#activities {
+	 padding-top: 1%;
 	}
 }
