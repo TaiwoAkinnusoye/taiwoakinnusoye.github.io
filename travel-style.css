@@ -791,7 +791,11 @@ font-size: 22px;
 	.nightlife-clubName, .nightlife-clubDest, .nightlife-clubCountry {
 	font-size: 11px;
 	}
-	.hr-1, .hr-2 {
-	margin-top: 24px;
+	.hr-1 {
+	margin-top: 6px;
+	margin-bottom: 6px;
+	}
+	.hr-2 {
+	margin-top: 6px;
 	}
 }
