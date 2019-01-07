@@ -746,10 +746,10 @@ grid-row-end: 3;
   #navbar {
     display: none;
   }
-.welcome-title {
+.welcome-title,.activity-header p {
 font-size: 22px;	
 }
-.welcome-title ~ hr {
+.welcome-title ~ hr, .activity-header hr {
     margin-top: -8px !important;
     width: 39px !important;
     border-width: 2px !important; 
