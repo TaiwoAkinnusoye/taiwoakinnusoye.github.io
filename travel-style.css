@@ -759,6 +759,10 @@ font-size: 22px;
 	padding: 0px 28px;
 	margin-top: -16px;
 	}
+	#welcome-facts p {
+   	 padding: 0px 35px;
+    	font-size: 14px;
+	}
 	.readMore-btn {
 	font-size: 14px;
 	}
