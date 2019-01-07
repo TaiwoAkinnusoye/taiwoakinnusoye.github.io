@@ -750,8 +750,12 @@ grid-row-end: 3;
 font-size: 22px;	
 }
 .welcome-title ~ hr {
-    margin-top: -13px !important;
+    margin-top: -8px !important;
     width: 39px !important;
     border-width: 2px !important; 
   }
+	.welcome-body {
+	font-size: 14px;
+padding: 0px 28px;
+	}
 }
