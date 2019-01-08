@@ -874,3 +874,6 @@ margin-bottom: 5px !important;
 #sub_menu li a {
 font-size: 14px !important;
 }
+.header_cart_wrapper {
+display:none !important;
+}
