@@ -319,8 +319,6 @@ display:none !important;
     margin-bottom: 30px !important;
   }div.one.fullwidth.container div.col-md-6 h5,  div.one.fullwidth.container div.col-md-6 p, div.one.fullwidth.container div.col-md-6.pull-right{
   display: none !important; 
-  }#mobile_main_menu li a:after{
-/*    content: url("https://www.ochulo.com/wp-content/uploads/2018/02/sort-down.png");  */
   }.page-id-3557 .col-md-3 .img-responsive{
    display: none !important; 
   }.tp-parallax-wrap ul.nav.nav-tabs li{
@@ -352,8 +350,6 @@ display:none !important;
     margin-bottom: 30px !important;
   }div.one.fullwidth.container div.col-md-6 h5,  div.one.fullwidth.container div.col-md-6 p, div.one.fullwidth.container div.col-md-6.pull-right{
   display: none !important; 
-  }#mobile_main_menu li a:after{
-/*    content: url("https://www.ochulo.com/wp-content/uploads/2018/02/sort-down.png");  */
   }.page-id-3557 .col-md-3 .img-responsive{
    display: none !important; 
   }.tp-parallax-wrap ul.nav.nav-tabs li{
@@ -865,4 +861,10 @@ font-size: 22px;
 	.services-grid {
 	grid-template-columns: 6% 20% 20% 20% 20% 0%;
 	}
+}
+/* Mobile MENU CSS? */
+.mobile_main_nav li a {
+font-size: 16px !important;
+padding: 10px !important;
+background: #fff !important;
 }
