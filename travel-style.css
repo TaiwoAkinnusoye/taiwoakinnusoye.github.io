@@ -868,3 +868,6 @@ font-size: 16px !important;
 padding: 10px !important;
 background: #fff !important;
 }
+.mobile_main_nav li {
+margin-bottom: 5px !important;
+}
