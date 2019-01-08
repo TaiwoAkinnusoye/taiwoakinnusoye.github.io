@@ -877,3 +877,6 @@ font-size: 14px !important;
 .header_cart_wrapper {
 display:none !important;
 }
+.mobile_nav_icon {
+font-size: 27px;
+}
