@@ -856,9 +856,11 @@ font-size: 22px;
 	top: 5px;
 	}
 	.vacation-deals {
-	grid-template-rows: auto;
-	grid-column-gap; 13px;
-	grid-template-columns: 2% 19% 19% 19% 19%;
+	display: block;
+	}
+	.vacation-deals .div1, .vacation-deals .div2, .vacation-deals .div3, .vacation-deals .div4 {
+	padding-left: 20px;
+	padding-right: 20px;
 	}
 	.services-grid {
 	grid-template-columns: 6% 20% 20% 20% 20% 0%;
