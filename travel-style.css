@@ -767,6 +767,16 @@ grid-row: 2/3;
 grid-column: 5/6;
 grid-row: 2/3;
 }
+
+.services-grid {
+display: grid;
+grid-template-columns: 15% 16% 16% 16% 16% 0%;
+grid-template-rows: 100%;
+grid-column-gap: 1.5%;
+}
+.services-grid div {
+grid-column-start: 2;
+}
 @media (max-width: 450px) {
   #navbar {
     display: none;
@@ -851,5 +861,8 @@ font-size: 22px;
 	grid-template-rows: auto;
 	grid-column-gap; 13px;
 	grid-template-columns: 2% 19% 19% 19% 19%;
+	}
+	.services-grid {
+	grid-template-columns: 6% 20% 20% 20% 20% 0%;
 	}
 }
