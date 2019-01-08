@@ -871,3 +871,6 @@ background: #fff !important;
 .mobile_main_nav li {
 margin-bottom: 5px !important;
 }
+#sub_menu li a {
+font-size: 14px !important;
+}
