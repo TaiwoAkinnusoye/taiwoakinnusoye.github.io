@@ -721,7 +721,7 @@ grid-row-end: 3;
 }
 
 #travelpacklist {
-	margin-bottom: 10%;
+	margin-bottom: 1%;
 }
 #travelpacklist .hr-travelpacklist {
 	border-color: gray;
@@ -770,7 +770,12 @@ grid-template-columns: 15% 16% 16% 16% 16% 0%;
 grid-template-rows: 100%;
 grid-column-gap: 1.5%;
 }
-
+.important-info-title p {
+font-size: 40px;
+text-align: center;
+font-weight: lighter;
+margin: 2% 0px;
+}
 @media (max-width: 450px) {
   #navbar {
     display: none;
