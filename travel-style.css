@@ -780,10 +780,10 @@ margin: 2% 0px;
   #navbar {
     display: none;
   }
-.welcome-title,.activity-header p, #weather .weather-title, #nightlife .nightlife-title, #foodanddrink .foodanddrink-title p, #fashionpick .fashionpick-title, #travelpacklist .travelpacklist-title p {
+.important-info-title p, .welcome-title,.activity-header p, #weather .weather-title, #nightlife .nightlife-title, #foodanddrink .foodanddrink-title p, #fashionpick .fashionpick-title, #travelpacklist .travelpacklist-title p {
 font-size: 22px;	
 }
-.welcome-title ~ hr, .activity-header hr, #nightlife .nightlife-title ~ hr, #fashionpick .fashionpick-title ~ hr, #travelpacklist .travelpacklist-title p ~ hr {
+#important-info .important-info-title p ~ hr, .welcome-title ~ hr, .activity-header hr, #nightlife .nightlife-title ~ hr, #fashionpick .fashionpick-title ~ hr, #travelpacklist .travelpacklist-title p ~ hr {
     margin-top: -5px !important;
     width: 39px !important;
     border-width: 2px !important; 
