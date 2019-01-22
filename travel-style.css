@@ -485,7 +485,7 @@ display: none;
 }
 
 #navbar span:first-child {
-	margin-left: 8%;
+	margin-left: 0px;
 	margin-right: 4%;
 }
 
