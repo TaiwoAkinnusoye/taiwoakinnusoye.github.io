@@ -686,9 +686,9 @@ grid-row-end: 3;
 	grid-column-end: 7;	
 	border-color: gray;
 }
-#foodanddrink {
+/* #foodanddrink {
 height: 400px;
-}
+} */
 #food-info-1, #food-info-2 {margin-top: 4% !important}
 #foodanddrink .foodanddrink-title {
 	margin: 2% 0px;
