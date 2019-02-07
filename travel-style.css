@@ -10,6 +10,10 @@ body{
   overflow-x: hidden !important;
 }
 
+img {
+	image-rendering: auto !important;
+}
+
 .page-id-3557 a{
   width: 100%;
 }
