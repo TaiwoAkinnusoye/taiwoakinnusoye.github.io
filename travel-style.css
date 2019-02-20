@@ -756,7 +756,7 @@ width: 70% !important;
 .vacation-deals {
 display: grid;
 grid-template-columns: 17% 15% 15% 15% 15%;
-grid-template-rows: 50px 230px;
+grid-template-rows: repeat(2, 50px 230px);
 grid-column-gap: 15px;
 }
 
@@ -778,6 +778,7 @@ grid-row: 2/3;
 grid-column: 5/6;
 grid-row: 2/3;
 }
+
 
 .services-grid {
 display: grid;
