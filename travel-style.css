@@ -17,6 +17,10 @@ img {
 .page-id-3557 a{
   width: 100%;
 }
+
+.bottom-pagination .pull-right .pagination li a {
+width: fit-content !important;
+}
 .underline-exp {
     margin-left: 42%;
     border-color: #616769;
