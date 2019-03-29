@@ -1,0 +1,917 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden !important;
+}
+
+img {
+	image-rendering: auto !important;
+}
+
+.page-id-3557 a{
+  width: 100%;
+}
+
+.bottom-pagination .pull-right .pagination li a {
+width: fit-content !important;
+}
+.underline-exp {
+    margin-left: 42%;
+    border-color: #616769;
+    border-width: 2px;
+    margin-bottom: 25px;
+    width: 103px;
+    text-align: center;}
+
+.page-id-3557 .four_cols.gallery.metro .element.double_size {
+  width: 100% !important;
+}
+
+.element.grid.center.classic4_cols.double_size.animated1 img {
+  border-radius: 0px;
+}
+
+#toTop {
+	width: 45px !important;
+}
+
+div#rhs_section.pull-left{
+  display: none !important;
+}
+@media only screen and (min-width: 1024px) {
+div.hasbg.container .col-md-8 {
+	width: 80%; !important;
+}
+}
+
+.result-box .segment-inner .airlines, 
+.result-box .segment-inner .departure,
+.result-box .segment-inner .duration,
+.result-box .segment-inner .destination {
+	background-image: none !important;
+}
+
+.result-box .segment-inner .iata-time {
+	font-size: 14px !important;
+}
+
+.btn-danger {
+	background-color: #1fa1f4 !important;
+	border-color: #1fa1f4 !important;
+}
+
+.result-box .segment-inner {
+	padding: 14px 0px !important;
+} 
+
+.filter-area{
+	background: white !important;
+	border: solid 1px #e1e1e1 !important;
+}
+
+.result-box .ticketinfo > .inner{
+	background-color: white !important;
+	border: solid 1px #e1e1e1 !important;
+}
+.boxed-p {
+  border: 1px solid #ddd;
+  margin: 20px 0px;
+  padding: 15px;
+  background: #eee;
+  min-height: 128px;
+}
+
+main {
+  min-width: 320px;
+  /*max-width: 800px;*/
+  padding: 50px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+/* .tab-section {
+  padding: 0px 80px !important;;
+} */
+
+.selected-pkg {
+  padding: 0px 80px !important;
+}
+@media only screen and (max-width: 414px) {
+  .selected-pkg {
+    padding: 0px 10px !important;	
+}
+}
+.tab-section section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+.tab-section input {
+  display: none;
+}
+
+.tab-section label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+  pointer: cursor;
+  width: 15%;
+}
+
+.tab-section label:before {
+font-family: fontawesome;
+ font-weight: normal;
+ margin-right: 10px;
+}
+
+.tab-section label[for*='1']:before {
+  content: '\f13a' !important;
+}
+
+.tab-section label[for*='2']:before {
+  content: '\f185'!important;
+}
+
+.tab-section label[for*='3']:before {
+  content: '\f186'!important;
+}
+
+.tab-section label[for*='4']:before {
+  content: '\f0f4'!important;
+}
+
+.tab-section label[for*='5']:before {
+  content: '\f030'!important;
+}
+
+.tab-section label[for*='6']:before {
+  content: '\f09d'!important;
+}
+
+.tab-section label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+.tab-section input:checked + label {
+  color: #555;
+  border: 1px solid #ddd;
+  border-top: 2px solid orange;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5,
+#tab6:checked ~ #content6 {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  .tab-section label {
+    font-size: 0;
+  }
+
+  .tab-section label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .tab-section label {
+    padding: 15px;
+  }
+}
+
+.tab-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+ul {
+  list-style: disc;
+}
+
+figcaption {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.selected-pkg-text {
+  margin-bottom: 30px;
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+.collapsed-txt {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  max-height: 250px; 
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 20px 10px;
+  background-color: #fff;
+}
+
+section#content5 .col-md-3 .thumbnail img {
+/*     width: 266px !important; */
+       height: 250px !important;
+}
+section#content5 .col-md-3 .thumbnail{
+  width: 250px !important;
+}
+
+/* section#content5 .col-md-3 .slick-slide{
+  width: 270px !important;
+} */
+
+.slick-initialized.slick-slider .slick-prev.slick-arrow{
+    display: none !important;
+}
+.slick-initialized.slick-slider button.slick-next.slick-arrow {
+  display: none !important;
+}
+/* .carousel-inner {
+  height: 300px;
+} */
+
+.page-id-3557 #payment-form #Debit_Card div.col-md-3 div.col-md-12 img{
+  width:!important;
+}
+
+section#content3 .well.col-md-12, section#content4 .well.col-md-12{
+  text-align: center !important;
+  padding: 0 0 0 10px !important;
+}
+
+
+section#content6 .custom-well.col-md-2 {
+  margin-right: 20px !important;
+}
+
+section#content6 .custom-well.col-md-2:last-child {
+  margin-right: 0px !important;
+}
+
+
+.custom-well {
+    min-height: 20px !important;
+    margin-bottom: 20px !important;
+    background-color: #f5f5f5 !important;
+    border: 1px solid #e3e3e3 !important;
+    border-radius: 4px !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05) !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05) !important;
+    width: 250px;
+    padding: 0 0 0 10px !important;
+}
+
+.col-md-3 .filter-head, .col-md-3 .filter-area{
+  display: none;
+}
+
+.col-md-9.hotel-listing {
+  width: 100% !important;
+}
+
+.col-md-4 .thumbnail img {
+  height: 240px !important;
+}
+@media only screen and (min-width: 1024px) {
+li.menu-item-4387:hover ul.sub-menu {
+  max-height: 400px !important;
+  overflow-y: scroll !important;
+}
+}
+
+
+/* Responsive CSS for Ochulo Travel Home Page */
+@media only screen and (max-width : 375px) {
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+         border-radius: 20px;
+  }
+.page_content_wrapper img{
+  width:100% !important;
+}
+.rev_slider_wrapper{
+display:none !important;
+}
+#awos{
+  width:100% !important;
+}
+  .logo_wrapper {
+    margin-top: -15px !important;
+  }.logo_wrapper img {
+    width: 50% !important;
+  }div.tp-bgimg {
+/*    display: none !important;  */
+  }div.ppb_tourcat_grid, div.ppb_destination_metro, div.ppb_header{
+/*     display: none !important; */
+  }div.ppb_content_half_bg{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }div.one.fullwidth.container div.col-md-6 h5,  div.one.fullwidth.container div.col-md-6 p, div.one.fullwidth.container div.col-md-6.pull-right{
+  display: none !important; 
+  }.page-id-3557 .col-md-3 .img-responsive{
+   display: none !important; 
+  }.tp-parallax-wrap ul.nav.nav-tabs li{
+    width: 100% !important;
+    text-transform: none !important;
+    margin: 2px !important;
+     border-radius: 20px;
+    /* margin: 0 1px !important; */
+
+    border: 1px solid;
+  } 
+}
+
+/* Responsive CSS for Ochulo Travel Home Page */
+@media only screen and (max-width : 736px) {
+  .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+         border-radius: 20px;
+  }
+  .logo_wrapper {
+    margin-top: -15px !important;
+  }.logo_wrapper img {
+    width: 50% !important;
+  }div.tp-bgimg {
+/*    display: none !important;  */
+  }div.ppb_tourcat_grid, div.ppb_destination_metro, div.ppb_header{
+/*     display: none !important; */
+  }div.ppb_content_half_bg{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }div.one.fullwidth.container div.col-md-6 h5,  div.one.fullwidth.container div.col-md-6 p, div.one.fullwidth.container div.col-md-6.pull-right{
+  display: none !important; 
+  }.page-id-3557 .col-md-3 .img-responsive{
+   display: none !important; 
+  }.tp-parallax-wrap ul.nav.nav-tabs li{
+    width: 100% !important;
+    text-transform: none !important;
+    margin: 2px !important;
+    border-radius: 20px;
+    /* margin: 0 1px !important; */
+
+    border: 1px solid;
+  } 
+}
+
+/* Responsive CSS for Vacation Packages on Ochulo Travel */
+@media only screen and (min-width: 320px) {
+  #page_content_wrapper.hasbg {
+    padding: 0 0 0 0 !important; 
+  }
+}
+
+@media only screen and (min-width: 384px) {
+  .col-md-3 .filter-head, .col-md-3 .filter-area{
+  display: none;
+}
+
+.col-md-9.hotel-listing {
+  width: 100% !important;
+}
+  #page_content_wrapper.hasbg {
+    padding: 0 0 0 0 !important;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .switch-img {
+    float: left !important;
+    width: 41.6666667% !important;
+  }
+  .hotel-info {
+    float: right !important;
+    width: 58.33333333% !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:767px) {
+  .package-complete-detail ul.nav-tabs > li {
+    width: 30%;
+    margin-bottom: 5px ;
+  }
+  .package-complete-detail .nav-tabs li a span {
+    display: inline-block !important;
+  }
+.grid.gallery.portrait .element .grid.gallery4{
+min-height:400px !important;
+}
+}
+
+/* @media only screen and (min width: 320px) and (max-width: 767px) {
+   .package-complete-detail .nav-tabs > li > a {
+    border-radius: 5px !important;
+  }
+}
+ */
+
+.mobile_menu_wrapper {
+  background: rgba(211,211,211,0.7) !important;
+}
+
+@media only screen and (max-width:960px) {
+  #mobile_main_menu li a {
+/*     border: 1px solid black !important; */
+	}
+}
+@media only screen and (max-width: 606px) {
+	.result-box .result-details, .result-box .ticketinfo{
+		display: block !important;
+	}  
+	 .masonry.gutterless .brick {
+    display: none;
+  }
+  .masonry.gutterless .brick:nth-child(2) {
+    display: block;
+  }
+	  }
+#menu_back {
+  background-color: #1da1f2 !important;
+  color: #fff !important;
+}
+
+
+@media(max-width: 450px) {
+.rev_slider_wrapper.fullwidthbanner-container {
+display: none;	
+	}
+}
+/*
+@media (min-width: 450px) {
+	#flight-tab-mobile, #hotel-tab-mobile, #packages-tab-mobile {
+	display:none;
+	}
+}
+*/
+@media (min-width: 450px) {
+  .mobile-tab19 {
+    display: none !important;
+  }
+}
+
+
+
+
+/* Destination Pages CSS */
+
+
+#navbar {
+	display: grid;
+	grid-template-columns: 10% 80% 10%;
+	grid-template-rows: auto;
+	padding-top: 30px;
+	padding-bottom: 1%;
+	margin-bottom: 0%;
+	overflow: hidden;
+	background: #fff;
+	width: 101%;
+	z-index: 9999;
+}
+
+#navbar .navbar-menu {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 15px;
+}
+
+#navbar span:first-child {
+	margin-left: 0%;
+	margin-right: 4%;
+}
+
+#navbar span {
+	margin-right: 4%;
+}
+
+#navbar span:last-child {
+	margin-right: 0px;
+}
+
+#navbar span a {
+	color : #000;
+}
+
+#navbar span a:hover {
+	color: #000;
+}
+
+#main-content {
+	/*padding: 16px;*/
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + #main-content {
+	padding-top: 10px;
+}
+#welcome-facts {
+	display: none;
+	text-align: center;
+	font-size: 20px;
+}
+
+#welcome-facts p {
+	padding: 0px 95px;
+}
+
+.welcome-content {
+	text-align: center;
+}
+
+.welcome-title {
+	font-size: 40px;
+	text-align: center;
+	font-weight: lighter;
+	margin-bottom: 2%;
+}
+.welcome-body {
+	text-align: center;
+	font-size: 20px;
+	padding: 0px 95px;
+}
+
+.readMore-btn {
+	text-align: center;
+	font-size: 20px;
+}
+
+#activities {
+margin-left: 65px;
+margin-right: 35px;
+padding-top: 1%;
+}
+
+#activities .card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-right: 15px;
+    width: 23%;
+    padding: 0px;
+}
+
+#activities .card:hover {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#activities .card-body {
+padding-top: 12px;
+padding-left: 15px;
+padding-bottom: 5px;
+padding-right: 15px;
+background: #efefef;
+}
+
+#activities .card-img-div {
+	height: 340px;
+}
+
+#activities .card-img-top {
+	object-fit: cover;
+	height: 100%;
+}
+
+#activities #readMore-link {
+	font-size: 12px;
+}
+
+#activities .activities-price {
+float: right;
+background: #c60000;
+color: #fff;
+padding-left: 4px;
+padding-right: 4px;
+font-size: 12px;
+}
+
+.activity-header p{
+	text-align: center;
+	font-size: 40px;
+	font-weight: lighter;
+	margin-bottom: 2%;
+}
+
+#weather {
+	margin-top: 450px;
+}
+
+#weather .weather-title {
+	font-size: 40px;
+	text-align: center;
+	font-weight: lighter;
+}
+
+#nightlife .nightlife-title {
+	font-size: 40px;
+	text-align: center;
+	font-weight: lighter;
+	margin: 2% 0px;
+}
+
+
+
+#nightlife .nightlife-grid {
+display: grid;
+grid-template-columns: 8% 15% 25% 4% 15% 25% 8%;
+grid-template-rows: 50px 100px 25px 45px;
+}
+
+#nightlife .nightlife-grid #nightlife-img-1 {
+grid-column-start: 2;
+grid-column-end: 3;
+}
+
+#nightlife .nightlife-grid #nightlife-img-2 {
+grid-column-start: 5;
+grid-column-end: 6;
+}
+
+#nightlife-img-1 .nightlife-img {
+height: 175px;
+object-fit: contain;
+}
+
+#nightlife-img-2 .nightlife-img {
+height: 175px;
+object-fit: contain;
+}
+
+
+.nightlife-info-1 {
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+
+
+.nightlife-info-2 {
+grid-column-start: 6;
+grid-column-end: 7;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+
+.nightlife-clubName {
+	font-size: 27px;
+	font-weight: lighter;
+	color: gray;
+}
+
+#nightlife .nightlife-grid .hr-1 {
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	border-color: gray;
+}
+
+#nightlife .nightlife-grid .hr-2 {
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 5;
+	grid-column-end: 7;	
+	border-color: gray;
+}
+@media (min-width: 800px) {
+#foodanddrink {
+height: 400px;
+}
+#foodanddrink-img img {
+	margin-top: -24% !important;
+	}
+}
+#food-info-1, #food-info-2 {margin-top: 4% !important}
+#foodanddrink .foodanddrink-title {
+	margin: 2% 0px;
+}
+
+#foodanddrink .foodanddrink-title p {
+	font-size: 40px;
+	text-align: center;
+	font-weight: lighter;
+}
+#foodanddrink-img img {
+height: 70% !important;
+width: 70% !important;	
+}
+.hr-food {
+	border-color: : gray;
+	margin-bottom: 20px
+}
+
+.fashionpick-grid .card {
+	margin-right: 15px;
+    width: 23%;
+    padding: 0px;
+}
+
+.fashionpick-grid .card-img-top {
+	object-fit: cover;
+	height: 100%;
+}
+
+#fashionpick .fashionpick-title {
+	font-size: 40px;
+	text-align: center;
+	margin: 2% 0px;
+	font-weight: lighter;
+}
+
+#travelpacklist {
+	margin-bottom: 1%;
+}
+#travelpacklist .hr-travelpacklist {
+	border-color: gray;
+}
+
+#travelpacklist .travelpacklist-title p {
+	font-size: 40px;
+	text-align: center;
+	font-weight: lighter;
+	margin: 2% 0px;
+}
+
+#travelpacklist img {
+	width: 10%;
+}
+
+.vacation-deals {
+display: grid;
+grid-template-columns: 17% 15% 15% 15% 15%;
+grid-template-rows: repeat(2, 50px 230px);
+grid-column-gap: 15px;
+}
+
+.vacation-deals .div1 {
+grid-column: 2/3;
+grid-row: 2/3;
+}
+.vacation-deals .div5 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+.vacation-deals .div2 {
+grid-column: 3/4;
+grid-row: 2/3;
+}
+.vacation-deals .div6 {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+.vacation-deals .div3 {
+grid-column: 4/5;
+grid-row: 2/3;
+}
+.vacation-deals .div7 {
+  grid-column: 4/5;
+  grid-row: 4/5
+}
+.vacation-deals .div4 {
+grid-column: 5/6;
+grid-row: 2/3;
+}
+
+
+.services-grid {
+display: grid;
+grid-template-columns: 15% 16% 16% 16% 16% 0%;
+grid-template-rows: 100%;
+grid-column-gap: 1.5%;
+}
+.important-info-title p {
+font-size: 40px;
+text-align: center;
+font-weight: lighter;
+margin: 2% 0px;
+}
+@media (max-width: 450px) {
+  #navbar {
+    display: none;
+  }
+.important-info-title p, .welcome-title,.activity-header p, #weather .weather-title, #nightlife .nightlife-title, #foodanddrink .foodanddrink-title p, #fashionpick .fashionpick-title, #travelpacklist .travelpacklist-title p {
+font-size: 22px;	
+}
+#important-info .important-info-title p ~ hr, .welcome-title ~ hr, .activity-header hr, #nightlife .nightlife-title ~ hr, #fashionpick .fashionpick-title ~ hr, #travelpacklist .travelpacklist-title p ~ hr {
+    margin-top: -5px !important;
+    width: 39px !important;
+    border-width: 2px !important; 
+  }
+	#foodanddrink .foodanddrink-title p ~ hr, .weather-title ~ hr{
+	margin-top: 2px !important;
+	width: 39px !important;
+    	border-width: 2px !important; 
+	}
+	.welcome-body {
+	font-size: 14px;
+	padding: 0px 28px;
+	margin-top: -16px;
+	}
+	#welcome-facts p {
+   	 padding: 0px 35px;
+    	font-size: 14px;
+	}
+	.readMore-btn {
+	font-size: 14px;
+	}
+	#activities {
+	 padding-top: 1%;
+	 margin-left: 35px;
+	}
+	#activities .card {
+	width: 100%;
+	margin-bottom: 6%;
+	}
+	#weather {
+	margin-top: 0px;
+	}
+	#nightlife .nightlife-grid {
+	grid-template-columns: 4% 15% 25% 4% 15% 25% 3%;
+	grid-template-rows: auto;
+	grid-column-gap: 4px;
+	}
+	.nightlife-info-1 {
+	grid-column-start: 2;
+	}
+	.nightlife-info-2 {
+	grid-column-start: 5;
+	}
+	.nightlife-clubName, .nightlife-clubDest, .nightlife-clubCountry {
+	font-size: 11px;
+	}
+	.nightlife-clubName {
+	text-transform: uppercase;
+	color: #000;
+	}
+	.hr-1 {
+	margin-top: 6px;
+	margin-bottom: 12px;
+	}
+	.hr-2 {
+	margin-top: 6px;
+	}
+	.travelpacklist-title {
+	margin-top: 22px;
+	}
+	#travelpacklist img {
+	width: 6%;
+	}
+	#travelpacklist .col-md-6 p {
+	font-size: 16px !important;
+	padding-bottom: 5px !important;
+	font-weight: lighter !important;
+	}
+	#travelpacklist .col-md-6 p span {
+	position: relative;
+	top: 5px;
+	}
+	.vacation-deals {
+	display: block;
+	}
+	.vacation-deals .div1, .vacation-deals .div2, .vacation-deals .div3, .vacation-deals .div4 {
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+	.services-grid {
+	grid-template-columns: 6% 20% 20% 20% 20% 0%;
+	}
+}
+/* Mobile MENU CSS? */
+.mobile_main_nav li a {
+font-size: 16px !important;
+padding: 10px !important;
+background: #fff !important;
+}
+.mobile_main_nav li {
+margin-bottom: 5px !important;
+}
+#sub_menu li a {
+font-size: 14px !important;
+}
+.header_cart_wrapper {
+display:none !important;
+}
+#mobile_nav_icon {
+font-size: 27px !important;
+}
