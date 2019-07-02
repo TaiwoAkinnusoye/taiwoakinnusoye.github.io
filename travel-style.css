@@ -41,6 +41,15 @@ width: fit-content !important;
 	width: 45px !important;
 }
 
+.top_contact_info {
+  float: none;
+}
+
+.top_contact_info span .dropdown.show_hide .dropdown-toggle.btn.btn-link {
+  color: #000;
+  margin-top: -33px;
+}
+
 div#rhs_section.pull-left{
   display: none !important;
 }
