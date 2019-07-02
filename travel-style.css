@@ -46,8 +46,8 @@ width: fit-content !important;
 }
 
 .top_contact_info span .dropdown.show_hide .dropdown-toggle.btn.btn-link {
-  color: #000;
-  margin-top: -33px;
+  color: #000 !important;
+  margin-top: -33px !important;
 }
 
 div#rhs_section.pull-left{
